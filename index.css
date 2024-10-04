@@ -1,0 +1,54 @@
+
+#intro-image {
+	
+	width: 100%;
+	
+}
+
+#student-message {
+	font-style: italic;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.card {
+	display: flex;
+}
+
+.map-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.map-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	border: 0;
+}
+
+nav {
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  color: #ffffff;
+}
+
+footer {
+  background: linear-gradient(to right, #141E30, #243B55);
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
